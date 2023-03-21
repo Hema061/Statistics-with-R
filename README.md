@@ -26,3 +26,19 @@ d. Expand data frame include SALARY.
    b.In each case, what is the value of x?  (Try to think it through before you try it in R)
 	i)x<-2-1*2
 	ii)x<-6/3-2+1*0+3/3-3
+
+ASSIGNMENT 2
+
+1.Will the following code return any error? State the reason behind your answer and explain the logic behind the code
+val<- numeric() result <- vector("list", length(val)) for (index in 1:length(val)) { result[index] <- val[index] ^ 2 }
+
+2.Write a function is.even(n) in R that returns TRUE when n is even and FALSE otherwise. Then, using is.even(n), write a function evens.in(v) that returns a vector comprised of the even integers in a vector v of integers.
+
+3.a.Write a function “invoice” with variables pcs (nr of pieces) and unitprice the function calculates the net price (pcs * unitprice) and gives a deduction of 10% for >25 pieces sold
+b.Test with 56 pieces of 89$/unit
+
+4.Write a function which recursively computes the n’th Fibonacci number.
+
+5.Sorting a list of numbers is a shockingly important problem in programming. Consider the vector x <- c(10, 5, 3, 6, 1, 4, 2, 8, 7, 9). 
+(i)Sort the vector using the sort() function. 
+(ii)Sort the vector in reverse order using the sort() function
