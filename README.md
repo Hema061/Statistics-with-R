@@ -1,5 +1,6 @@
 # Statistics-with-R
 ASSIGNMENT 1
+
 1..Demonstrate Factor data structure in R.
 a. Create a factor gender with levels female and male.
 b. Use is.factor() is used to check whether the variable is a factor and returns “TRUE” if it is a factor
